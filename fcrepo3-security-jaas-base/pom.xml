@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>ca.discoverygarden</groupId>
+    <artifactId>fcrepo3-security-jaas</artifactId>
+    <version>${fedora.version}</version>
+  </parent>
+  <artifactId>fcrepo3-security-jaas-base</artifactId>
+      <properties>
+        <skipTests>false</skipTests>
+        <fedora.version>3.6.2</fedora.version>
+    </properties>
+        <build>
+        <testResources>
+            <testResource>
+                <filtering>true</filtering>
+                <directory>src/test/resources</directory>
+                <includes>
+                    <include>fedora-users.xml</include>
+                </includes>
+            </testResource>
+        </testResources>
+</build>
+</project>
