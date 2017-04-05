@@ -150,7 +150,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-        <properties>
+    <properties>
         <skipTests>false</skipTests>
         <skipSqlTests>true</skipSqlTests>
         <fedora.version>3.6.2</fedora.version>
@@ -165,5 +165,5 @@
                 </includes>
             </testResource>
         </testResources>
-</build>
+    </build>
 </project>
