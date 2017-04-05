@@ -6,7 +6,7 @@
         <artifactId>fcrepo3-security-jaas</artifactId>
         <version>${fedora.version}</version>
     </parent>
-    <artifactId>fcrepo3-security-jaas-base</artifactId>
+    <artifactId>fcrepo3-security-jaas-xmlfile</artifactId>
     <properties>
         <skipTests>false</skipTests>
         <fedora.version>3.6.2</fedora.version>

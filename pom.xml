@@ -58,7 +58,7 @@
     <url>https://github.com/discoverygarden/fcrepo3-security-jaas</url>
     <packaging>pom</packaging>
     <modules>
-        <module>fcrepo3-security-jaas-base</module>
+        <module>fcrepo3-security-jaas-xmlfile</module>
         <module>fcrepo3-security-jaas-multisite</module>
     </modules>
 </project>
